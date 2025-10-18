@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence</title>
+
+    <style>
+        /* === Page Basic Styling === */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef3fa;
+        }
+
+        /* === Header Section (Static) === */
+        header {
+            background-color: #2d8cff;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            position: static; /* default */
+            border-bottom: 4px solid #1b66c9;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 16px;
+            margin-top: 6px;
+        }
+
+        /* === Navigation Bar (Fixed) === */
+        nav {
+            background-color: #1b66c9;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #1b66c9;
+            padding: 4px 8px;
+            border-radius: 6px;
+        }
+
+        /* === Hero Section (Relative + Absolute Image) === */
+        .hero {
+            background-color: #fff;
+            width: 80%;
+            margin: 100px auto 30px auto;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .hero img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #2d8cff;
+            position: absolute;
+            top: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .hero h2 {
+            margin-top: 70px;
+            color: #2d8cff;
+        }
+
+        .hero p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        /* === Content Section (Relative + Absolute Box) === */
+        .content {
+            width: 80%;
+            margin: 40px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 25px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .ai-box {
+            background-color: #2d8cff;
+            color: white;
+            padding: 10px;
+            border-radius: 6px;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 14px;
+        }
+
+        .content h3 {
+            color: #2d8cff;
+        }
+
+        .content ul {
+            line-height: 1.8;
+            color: #444;
+        }
+
+        /* === Footer (Sticky) === */
+        footer {
+            background-color: #2d8cff;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            position: sticky;
+            bottom: 0;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Artificial Intelligence (AI)</h1>
+        <p>The Future of Smart Technology</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Uses</a>
+        <a href="#">Benefits</a>
+        <a href="#">Future</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712101.png" alt="AI Icon">
+        <h2>Welcome to the World of AI</h2>
+        <p>
+            Artificial Intelligence (AI) allows computers to think and learn like humans.
+            It is used in many fields such as robotics, healthcare, and self-driving cars.
+            AI helps make technology smarter and faster every day.
+        </p>
+    </section>
+
+    <section class="content">
+        <div class="ai-box">AI in 2025</div>
+        <h3>Applications of Artificial Intelligence</h3>
+        <ul>
+            <li>Self-driving cars and smart traffic systems</li>
+            <li>Voice Assistants like Siri, Alexa, and Google</li>
+            <li>Robots in industries and hospitals</li>
+            <li>AI-based learning and chat systems</li>
+            <li>Facial recognition and image analysis</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Created by Imtiaz Ali | Web Design Lab Task</p>
+    </footer>
+
+</body>
+</html>
