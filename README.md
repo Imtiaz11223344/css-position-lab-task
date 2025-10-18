@@ -13,9 +13,8 @@ This project demonstrates how different **CSS position properties** — `static`
 - `position.html` → Main HTML file demonstrating all CSS position types
 
 ## 🚀 Live Demo
-👉 [**View Page on GitHub Pages**](https://imtiaz11223344.github.io/css-position-lab-task/position.html)
+👉 [**View Page on GitHub Pages**](https://imtiaz11223344.github.io/css-position-lab-task/)
 
-*(If the page doesn’t load yet, wait a minute after enabling GitHub Pages in your repository settings.)*
 
 ## 🧑‍💻 Author
 **Imtiaz Ali**  
